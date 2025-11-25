@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container">
@@ -23,7 +25,8 @@
                 <li><a href="#maws">MAWS</a></li>
                 <li><a href="#examples">Success Cases</a></li>
                 <li><a href="#code">Code</a></li>
-                <li><a href="https://github.com/mneuronico/multi-agent-system-library" target="_blank" class="btn-primary">GitHub</a></li>
+                <li><a href="https://github.com/mneuronico/multi-agent-system-library" target="_blank"
+                        class="btn-primary">GitHub</a></li>
             </ul>
         </div>
     </nav>
@@ -32,14 +35,16 @@
         <div class="container">
             <div class="hero-content">
                 <h1>Build Powerful <span class="highlight">Multi-Agent Systems</span> with Ease</h1>
-                <p class="tagline">A provider-independent, JSON-configurable framework for creating structured, intelligent agents.</p>
+                <p class="tagline">A provider-independent, JSON-configurable framework for creating structured,
+                    intelligent agents.</p>
                 <div class="hero-buttons">
-                    <a href="https://github.com/mneuronico/multi-agent-system-library" target="_blank" class="btn-primary">Get Started</a>
+                    <a href="https://github.com/mneuronico/multi-agent-system-library" target="_blank"
+                        class="btn-primary">Get Started</a>
                     <a href="#about" class="btn-secondary">Learn More</a>
                 </div>
             </div>
             <div class="hero-image">
-                <!-- Abstract representation or code snippet visual could go here -->
+                <img src="assets/mas-logo.png" alt="MAS Logo" class="hero-logo-3d">
             </div>
         </div>
     </header>
@@ -47,7 +52,8 @@
     <section id="about" class="section about">
         <div class="container">
             <h2>Meet the MAS Library</h2>
-            <p class="lead">Designed for developers and non-developers alike, MAS allows you to design complex multi-agent systems with minimal code.</p>
+            <p class="lead">Designed for developers and non-developers alike, MAS allows you to design complex
+                multi-agent systems with minimal code.</p>
             <div class="about-grid">
                 <div class="about-card">
                     <i class="fas fa-cubes"></i>
@@ -79,19 +85,43 @@
             <div class="features-grid">
                 <div class="feature-item">
                     <h3><i class="fab fa-whatsapp"></i> Native Bot Support</h3>
-                    <p>Out-of-the-box support for WhatsApp and Telegram bots. Deploy your agents to where your users are.</p>
+                    <p>Out-of-the-box support for WhatsApp and Telegram bots. Deploy your agents to where your users
+                        are.</p>
                 </div>
                 <div class="feature-item">
                     <h3><i class="fas fa-photo-video"></i> Multimodal</h3>
-                    <p>Handle text, images, and audio natively. The block-based system ensures seamless data exchange.</p>
+                    <p>Handle text, images, and audio natively. The block-based system ensures seamless data exchange.
+                    </p>
                 </div>
                 <div class="feature-item">
                     <h3><i class="fas fa-project-diagram"></i> Agentic Workflows</h3>
-                    <p>Design complex flows with Agents, Tools, Processes, and Automations. Support for branching, loops, and more.</p>
+                    <p>Design complex flows with Agents, Tools, Processes, and Automations. Support for branching,
+                        loops, and more.</p>
                 </div>
                 <div class="feature-item">
                     <h3><i class="fas fa-database"></i> Centralized History</h3>
-                    <p>Robust message history management with SQLite, supporting multi-user sessions and context-aware agents.</p>
+                    <p>Robust message history management with SQLite, supporting multi-user sessions and context-aware
+                        agents.</p>
+                </div>
+                <div class="feature-item">
+                    <h3><i class="fas fa-tools"></i> Custom Tools</h3>
+                    <p>Easily extend agent capabilities with custom Python functions defined as tools.</p>
+                </div>
+                <div class="feature-item">
+                    <h3><i class="fas fa-brain"></i> Long-term Memory</h3>
+                    <p>Built-in support for vector databases to give your agents persistent context and knowledge.</p>
+                </div>
+                <div class="feature-item">
+                    <h3><i class="fas fa-user-secret"></i> Role-Playing</h3>
+                    <p>Define distinct personas and roles for each agent to specialize tasks and interactions.</p>
+                </div>
+                <div class="feature-item">
+                    <h3><i class="fas fa-sync-alt"></i> Async Operations</h3>
+                    <p>Run heavy tasks in the background without blocking the main conversation flow.</p>
+                </div>
+                <div class="feature-item">
+                    <h3><i class="fas fa-chart-line"></i> Observability</h3>
+                    <p>Track agent performance, token usage, and costs with built-in logging and metrics.</p>
                 </div>
             </div>
         </div>
@@ -110,7 +140,8 @@
                         <li><i class="fas fa-check"></i> Background processing via self-invocation</li>
                         <li><i class="fas fa-check"></i> DynamoDB locking & S3 synchronization</li>
                     </ul>
-                    <a href="https://github.com/mneuronico/multi-agent-system-library/tree/main/maws" target="_blank" class="btn-primary">View MAWS Docs</a>
+                    <a href="https://github.com/mneuronico/multi-agent-system-library/tree/main/maws" target="_blank"
+                        class="btn-primary">View MAWS Docs</a>
                 </div>
                 <div class="maws-logo">
                     <img src="assets/maws-logo.png" alt="MAWS Logo">
@@ -132,6 +163,7 @@
     <section id="code" class="section code-showcase">
         <div class="container">
             <h2>Simple & Powerful</h2>
+            <p class="install-note">Install via <code>pip install --upgrade git+https://github.com/mneuronico/multi-agent-system-library</code></p>
             <div class="code-tabs">
                 <button class="tab-btn active" data-tab="python">main.py</button>
                 <button class="tab-btn" data-tab="json">config.json</button>
@@ -139,7 +171,7 @@
             </div>
             <div class="code-content">
                 <div id="python" class="code-pane active">
-<pre><code class="language-python">from mas import AgentSystemManager
+                    <pre><code class="language-python">from mas import AgentSystemManager
 
 # Initialize the manager
 manager = AgentSystemManager(config="config.json") 
@@ -150,7 +182,7 @@ print(output)
 </code></pre>
                 </div>
                 <div id="json" class="code-pane">
-<pre><code class="language-json">{
+                    <pre><code class="language-json">{
     "general_parameters": {
         "general_system_description": "A simple query system."
     },
@@ -167,7 +199,7 @@ print(output)
 }</code></pre>
                 </div>
                 <div id="fast-track" class="code-pane">
-<pre><code class="language-python">from mas import AgentSystemManager as ASM
+                    <pre><code class="language-python">from mas import AgentSystemManager as ASM
 
 # Zero-Config Bootstrap: Just describe what you want!
 ASM("I want a system that gets a youtube video from a link sent by user, gets the transcript from that video, and summarizes it. Use google's gemini-2.0-flash model.").run("www.youtube.com/watch?v=some-video")
@@ -201,7 +233,8 @@ ASM("I want a system that gets a youtube video from a link sent by user, gets th
                     <span>MAS Library</span>
                 </div>
                 <div class="footer-links">
-                    <a href="https://github.com/mneuronico/multi-agent-system-library" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://github.com/mneuronico/multi-agent-system-library" target="_blank"><i
+                            class="fab fa-github"></i> GitHub</a>
                     <a href="mailto:mneuronico@gmail.com"><i class="fas fa-envelope"></i> Contact</a>
                 </div>
             </div>
@@ -211,4 +244,5 @@ ASM("I want a system that gets a youtube video from a link sent by user, gets th
 
     <script src="script.js"></script>
 </body>
+
 </html>

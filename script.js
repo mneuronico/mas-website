@@ -18,15 +18,28 @@ async function loadExamples() {
             card.className = 'example-card';
 
             card.innerHTML = `
-                <div class="example-header">
+                <div class="example-content-wrapper">
                     <img src="${example.logo}" alt="${example.name} Logo" class="example-logo">
                     <h3>${example.name}</h3>
-                </div>
-                <div class="example-body">
-                    <img src="${example.example}" alt="${example.name} Example" class="example-image">
                     <p class="example-desc">${example.description}</p>
                 </div>
+                <img src="${example.example}" alt="${example.name} Example" class="example-image-overlay">
             `;
+
+            const overlayImage = card.querySelector('.example-image-overlay');
+
+            card.addEventListener('mousemove', (event) => {
+                if (!overlayImage) return;
+                const rect = card.getBoundingClientRect();
+                const relativeY = (event.clientY - rect.top) / rect.height;
+                const clamped = Math.min(Math.max(relativeY, 0), 1);
+                overlayImage.style.objectPosition = `center ${clamped * 100}%`;
+            });
+
+            card.addEventListener('mouseleave', () => {
+                if (!overlayImage) return;
+                overlayImage.style.objectPosition = 'center 50%';
+            });
 
             grid.appendChild(card);
         });

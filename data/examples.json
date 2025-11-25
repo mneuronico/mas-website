@@ -3,24 +3,24 @@
         "name": "Casanchef",
         "logo": "assets/casanchef - logo.png",
         "example": "assets/casanchef - example.png",
-        "description": "A bot for Casancrem (the cream cheese company) that suggests recipes and ideas to cook based on requirements or pictures of whatever a user has in their fridge, through WhatsApp."
+        "description": "Revolutionizing kitchen creativity for Casancrem. This intelligent culinary assistant turns fridge leftovers into gourmet meals via WhatsApp. By analyzing text or photos of available ingredients, it delivers personalized recipes in seconds, driving brand engagement and product usage."
     },
     {
         "name": "La IA del Brunch",
         "logo": "assets/ia-del-brunch-logo.png",
         "example": "assets/ia-del-brunch-example.png",
-        "description": "A bot available through a webpage that recommended places to go out and eat using the Google Places API."
+        "description": "Your ultimate dining companion. Leveraging the Google Places API, this web-based bot curates the perfect brunch spots tailored to your taste and location. Discover hidden gems and top-rated eateries effortlessly, making every meal an experience."
     },
     {
         "name": "NoticIAs dIArIAs",
         "logo": "assets/NoticIAs dIArIAs - logo.png",
         "example": "assets/NoticIAs dIArIAs - example.png",
-        "description": "A Telegram bot service that sends daily messages with AI news taken from YouTube videos, newsletters, and so on from the last 24 hours."
+        "description": "Stay ahead of the curve with daily AI insights. This Telegram bot aggregates and summarizes the latest AI news from YouTube, newsletters, and blogs over the last 24 hours. Get a concise, high-impact briefing delivered straight to your phone every morning."
     },
     {
         "name": "Personal Assistant",
         "logo": "assets/personal assistant - logo.png",
         "example": "assets/Personal Assistant - example.png",
-        "description": "A private service that can read and write on your Google Calendar, read and write on your Gmail, control your Spotify (play music, create playlists, etc), and transcribe audios, all through a simple Telegram bot with a complex multi-agent architecture behind it, running on MAWS."
+        "description": "The ultimate productivity powerhouse. A sophisticated multi-agent system running on MAWS that manages your entire digital life. From scheduling Google Calendar events and drafting Gmail replies to controlling Spotify and transcribing audio notes—all through a simple Telegram interface."
     }
 ]
